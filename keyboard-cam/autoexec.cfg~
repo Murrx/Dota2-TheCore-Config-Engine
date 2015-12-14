@@ -23,7 +23,7 @@ exec config-engine/dota2_gameplay_mode/dota2_settings_game.cfg
 
 
 ////////////////////////////////////////////////////////////
-//Load the custom hero functions
+//Load the active command section
 ////////////////////////////////////////////////////////////
 
 //Sets up the active functions defined from the external file
