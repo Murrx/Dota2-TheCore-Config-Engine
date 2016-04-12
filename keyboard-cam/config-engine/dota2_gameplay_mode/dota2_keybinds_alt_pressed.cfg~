@@ -11,27 +11,21 @@ cameraStop
 //ALT to self cast for items
 bind "Q" "dota_item_execute 0;dota_item_execute 0"					
 bind "W" "dota_item_execute 1;dota_item_execute 1" 
-bind "F" "dota_item_execute 2;dota_item_execute 2"                    
-bind "P" "dota_item_execute 3;dota_item_execute 3"                     
-bind "G" "dota_item_execte 4;dota_item_execute 4"                   
-bind "J" "dota_item_execute 5;dota_item_execute 5"
+bind "G" "dota_item_execute 2;dota_item_execute 2"                    
+bind "A" "dota_item_execute 3;dota_item_execute 3"                     
+bind "R" "dota_item_execte 4;dota_item_execute 4"                   
+bind "D" "dota_item_execute 5;dota_item_execute 5"
 
 //ALT to self cast for abilities
-bind "A" "dota_ability_execute 0;dota_ability_execute 0"
-bind "R" "dota_ability_execute 1;dota_ability_execute 1"
-bind "S" "dota_ability_execute 2;dota_ability_execute 2"
-bind "D" "dota_ability_execute 3;dota_ability_execute 3"
-bind "V" "dota_ability_execute 4;dota_ability_execute 4"
-bind "T" "dota_ability_execute 5;dota_ability_execute 5"
+//bind "A" "dota_ability_execute 0;dota_ability_execute 0"
+//bind "R" "dota_ability_execute 1;dota_ability_execute 1"
+//bind "S" "dota_ability_execute 2;dota_ability_execute 2"
+//bind "D" "dota_ability_execute 3;dota_ability_execute 3"
+//bind "V" "dota_ability_execute 4;dota_ability_execute 4"
+//bind "T" "dota_ability_execute 5;dota_ability_execute 5"
 
 //Auto-attack toggle (Custom command)
-bind "S" "auto_attack_toggle"
-
-//Attack
-bind "A" "mc_attack"
-
-//Toggle health segmetnation between some values
-bind "Z" "toggle_segments"
+//bind "S" "auto_attack_toggle"
 
 
 ////////////////////////////////////////////////////////////
@@ -40,9 +34,6 @@ bind "Z" "toggle_segments"
 
 //Keep ALT as the modifier 
 bind "ALT" "+keyShift2"
-
-//Key to disable/enable open mic
-bind CAPSLOCK mic_toggle
 
 //Jump camera to fountains
 bind "F1" "dota_camera_set_lookatpos -6989 -6553"
